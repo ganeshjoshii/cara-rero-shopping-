@@ -1,0 +1,6 @@
+# Navigate to the web server directory
+cd /var/www/html
+# Remove old files
+sudo rm -rf *
+# Clone the latest version of the repository
+sudo git clone https://github.com/yourusername/your-repo.git .
